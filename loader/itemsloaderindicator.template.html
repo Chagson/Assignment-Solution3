@@ -1,0 +1,11 @@
+<div class="loader">
+
+</div>
+<br><br><br>
+<ul>
+  <li ng-repeat = "item in found">
+    the Name are: {{item.name}}   and the description: {{item.description}}
+    <br>
+    <button ng-click="list.onRemove({index: $index});">Remove Item</button>
+  </li>
+</ul>
